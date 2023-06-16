@@ -11,6 +11,8 @@ class Timer extends React.Component {
     }))
   }
 
+
+  
   componentDidMount() {
     this.interval = setInterval(() => this.tick(), 1000)
   }
